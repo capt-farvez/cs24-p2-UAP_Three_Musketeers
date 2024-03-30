@@ -49,3 +49,14 @@ data: {
     "token":"access token",
     "role": "update role"
 }
+
+## profile
+1. Request: POST , URLS: http://127.0.0.1:8000/profile/ , data: {
+  "token":"access token"
+}
+2. Request: PUT , URLS: http://127.0.0.1:8000/profile/ , data: {
+  "token":"token",
+  "email": "new email",
+  "first_name": "",
+  "last_name": ""
+}
