@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     'api',
     'userapi',
     'authapi',
+    'profileapi',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
