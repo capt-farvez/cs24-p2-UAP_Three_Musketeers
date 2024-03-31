@@ -1,6 +1,10 @@
 # cs24-p2-UAP_Three_Musketeers
 Code Samurai 2024 - 2nd Round
 
+# Running the backend
+```
+docker build --tag=sol:latest . && docker run -it -p 8000:8000 --rm --name=sol sol:latest
+```
 
 # API Documentation 
 ## auth
